@@ -45,8 +45,8 @@ Model 을 2 개 사용하여 SR-reconstruction 이 잘 되면 loss 값이 낮고
 ## Code
 Clone this repository into any place you want.
 ```bash
-git clone https://github.com/thstkdgus35/EDSR-PyTorch
-cd EDSR-PyTorch
+git@git.ajou.ac.kr:iyj0121/single-image-super-resolution-for-supervised-predictive-convolutional-attentive-block.git
+cd single-image-super-resolution-for-supervised-predictive-convolutional-attentive-block
 ```
 You can evaluate your models with widely-used benchmark datasets:
 
