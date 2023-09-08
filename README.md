@@ -16,14 +16,12 @@ In addition, this study placed restrictions on convolution using masks when lear
 Model 을 2 개 사용하여 SR-reconstruction 이 잘 되면 loss 값이 낮고 SR-reconstruction 이 잘 안되면 loss 값이 높으므로 하드 샘플에 집중하는 모델이다. 이를 통하여 재구축이 힘든 샘플에 집중할 수 있게 되고,localdetail을 좀 더 살릴 수 있는 계기로(하드 샘플에 집중하는 마이닝 기법) 앙상블의 일종이다.
 또한 이 연구는 모델 학습을 할 때, 컨볼루션에 마스크를 사용하여 재한을 두었다. 이를 통하여 모델을 테스트 할 때, 이미지 재구성이 하는데 효과적으로 적용할 수 있다.
 
-[1] Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, and Kyoung Mu Lee, **"Enhanced Deep Residual Networks for Single Image Super-Resolution,"** <i>2nd NTIRE: New Trends in Image Restoration and Enhancement workshop and challenge on image super-resolution in conjunction with **CVPR 2017**. </i> [[PDF](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Lim_Enhanced_Deep_Residual_CVPR_2017_paper.pdf)] [[arXiv](https://arxiv.org/abs/1707.02921)] [[Slide](https://cv.snu.ac.kr/research/EDSR/Presentation_v3(release).pptx)]
 ```
-@InProceedings{Lim_2017_CVPR_Workshops,
-  author = {Lim, Bee and Son, Sanghyun and Kim, Heewon and Nah, Seungjun and Lee, Kyoung Mu},
-  title = {Enhanced Deep Residual Networks for Single Image Super-Resolution},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-  month = {July},
-  year = {2017}
+@inproceedings{zhang2018rcan,
+    title={Image Super-Resolution Using Very Deep Residual Channel Attention Networks},
+    author={Zhang, Yulun and Li, Kunpeng and Li, Kai and Wang, Lichen and Zhong, Bineng and Fu, Yun},
+    booktitle={ECCV},
+    year={2018}
 }
 @inproceedings{Ristea-CVPR-2022,
   title={Self-Supervised Predictive Convolutional Attentive Block for Anomaly Detection},
