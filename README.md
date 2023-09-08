@@ -8,6 +8,7 @@
 
 <img width="712" alt="스크린샷 2023-04-09 오후 1 01 52" src="https://user-images.githubusercontent.com/90498398/236676450-5e7d3073-e2b0-47da-bc13-8187581af0e2.png">
 <img width="298" alt="스크린샷 2023-05-03 오후 8 07 38" src="https://user-images.githubusercontent.com/90498398/236676461-02a1bc78-14c7-4144-852f-4886d3ffae60.png">
+https://github.com/yulunzhang/RCAN/raw/master/Figs/RCAN.PNG
 
 This study aims to restore resolution to improve image quality. The entire framework consists of two models, vdsr and mask-attention. If SR-reconstruction works well using two models, the loss value is low, and if SR-reconstruction does not work well, the loss value is high, so it is a model that focuses on hard samples. This allows us to focus on samples that are difficult to rebuild, and is a kind of ensemble (mining technique that focuses on hard samples) as an opportunity to make more use of local details.
 In addition, this study placed restrictions on convolution using masks when learning models. Through this, when testing the model, it can be effectively applied to reconstruct the image.
